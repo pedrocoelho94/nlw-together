@@ -25,6 +25,7 @@ html{
 }
 
 body{
+    display: flex;
     height: 100vh;
     background: var(--background);
 }
@@ -85,7 +86,7 @@ button > img, .button > img{
     margin-right: 1rem;
     width: 2rem;
 }
-
+ 
 button.outlined, .button.outlined{
     background: var(--white);
     color: var(--blue);
@@ -93,7 +94,7 @@ button.outlined, .button.outlined{
 }
 
 .content header{
-    width: 80%;
+    width: 90%;
     margin: 3.5rem auto;
 }
 
