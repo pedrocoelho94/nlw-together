@@ -8,6 +8,11 @@
 
       <!-- ICONS -->
       <link rel="stylesheet" href="assets/fonts/style.css" />
+      <!-- SWIPER-->
+      <link
+         rel="stylesheet"
+         href="https://unpkg.com/swiper/swiper-bundle.min.css"
+      />
       <!-- STYLE -->
       <link rel="stylesheet" href="style.css" />
       <!-- FONTS -->
@@ -25,7 +30,7 @@
             <!-- MENU -->
             <div class="menu">
                <ul class="grid">
-                  <li><a class="title" href="#home">Início</a></li>
+                  <li><a class="title" href="#">Início</a></li>
                   <li><a class="title" href="#about">Sobre</a></li>
                   <li><a class="title" href="#services">Serviços</a></li>
                   <li>
@@ -103,39 +108,157 @@
 
          <section class="section" id="services">
             <div class="container grid">
-
                <header>
                   <h2 class="title">Serviços</h2>
-                  <p>Com mais de 10 anos no mercado, o <strong>Beautysalon</strong> já conquistou clientes de inúmeros países com seus tratamentos exclusivos e totalmente naturais</p>
+                  <p>
+                     Com mais de 10 anos no mercado, o
+                     <strong>Beautysalon</strong> já conquistou clientes de
+                     inúmeros países com seus tratamentos exclusivos e
+                     totalmente naturais
+                  </p>
                </header>
 
                <div class="cards grid">
-
                   <div class="card">
                      <i class="icon-woman-hair"></i>
                      <h3 class="title">Terapia Capilar</h3>
-                     <p>Terapia completa para couro cabeludo e fios, protegendo todos os tipos de cabelos, inclusive os longos e finos.</p>
+                     <p>
+                        Terapia completa para couro cabeludo e fios, protegendo
+                        todos os tipos de cabelos, inclusive os longos e finos.
+                     </p>
                   </div>
 
                   <div class="card">
                      <i class="icon-trim"></i>
                      <h3 class="title">Cortes</h3>
-                     <p>A nossa equipe é repleta de profissionais renomados, famosos por lançarem tendências com cortes diferenciados e clássicos.</p>
+                     <p>
+                        A nossa equipe é repleta de profissionais renomados,
+                        famosos por lançarem tendências com cortes diferenciados
+                        e clássicos.
+                     </p>
                   </div>
 
                   <div class="card">
                      <i class="icon-cosmetic"></i>
                      <h3 class="title">Tratamentos</h3>
-                     <p>O beautysalon conta com diversos tratamentos naturais e totalmente veganos, para qualquer tipo 
-                        de cabelo.</p>
+                     <p>
+                        O beautysalon conta com diversos tratamentos naturais e
+                        totalmente veganos, para qualquer tipo de cabelo.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <div class="divider-1"></div>
+
+         <section class="section" id="testimonials">
+            <div class="container">
+               <header>
+                  <h2 class="title">Depoimentos de quem já passou por aqui</h2>
+               </header>
+
+               <div class="testimonials swiper-container">
+                  <div class="swiper-wrapper">
+                     <div class="testimonial swiper-slide">
+                        <blockquote>
+                           <p>
+                              <span>&ldquo;</span> Lorem ipsum dolor sit amet
+                              consectetur adipisicing elit. Perspiciatis
+                              officiis tempore quam consectetur nisi, tenetur,
+                              cum doloribus rem minima, aperiam ex assumenda quo
+                              explicabo fugiat similique veniam tempora sunt
+                              quisquam!
+                           </p>
+
+                           <cite>
+                              <img
+                                 src="assets/photos/01.jpg"
+                                 alt="Foto de Larissa Oliveira"
+                              />
+                              Larissa Oliveira
+                           </cite>
+                        </blockquote>
+                     </div>
+
+                     <div class="testimonial swiper-slide">
+                        <blockquote>
+                           <p>
+                              <span>&ldquo;</span> Lorem ipsum, dolor sit amet
+                              consectetur adipisicing elit. Impedit facilis aut
+                              qui. Aperiam impedit porro rerum magni, asperiores
+                              consectetur animi suscipit libero, modi at
+                              incidunt harum quae aliquam labore cum?
+                           </p>
+
+                           <cite>
+                              <img
+                                 src="assets/photos/02.jpg"
+                                 alt="Foto de Wanessa Camargo"
+                              />
+                              Wanessa Camargo
+                           </cite>
+                        </blockquote>
+                     </div>
+
+                     <div class="testimonial swiper-slide">
+                        <blockquote>
+                           <p>
+                              <span>&ldquo;</span> Lorem ipsum dolor sit amet
+                              consectetur adipisicing elit. Rerum commodi
+                              nesciunt recusandae debitis nihil dolore alias
+                              quasi quis! Blanditiis reprehenderit culpa
+                              distinctio expedita sit temporibus. Possimus
+                              deleniti impedit sit ipsum.
+                           </p>
+
+                           <cite>
+                              <img
+                                 src="assets/photos/03.jpg"
+                                 alt="Foto de Isabella Fantonelli"
+                              />
+                              Isabella Fantonelli
+                           </cite>
+                        </blockquote>
+                     </div>
                   </div>
 
+                  <div class="swiper-pagination"></div>
+               </div>
+            </div>
+         </section>
+
+         <div class="divider-2"></div>
+
+         <section class="section" id="contact">
+            <div class="container grid">
+               <div class="text">
+                  <h2 class="title">Entre em contato com a gente</h2>
+                  <p>
+                     Entre em contato com a Beautysalon, queremos tirar suas
+                     dúvidas, ouvir suas críticas e sugestões.
+                  </p>
+                  <a
+                     href="https://api.whatsapp.com/send?phone=SeuNúmero&text=Olá, gostaria de agendar um horário."
+                     target="_blank"
+                     class="button"
+                     ><i class="icon-whatsapp"></i>Entrar em contato</a
+                  >
                </div>
 
+               <div class="links">
+                  <ul class="grid">
+                     <li><i class="icon-phone"></i>11 99845-6754</li>
+                     <li><i class="icon-map-pin"></i>R. Amauri Souza, 346</li>
+                     <li><i class="icon-mail"></i>contato@beautysalon.com</li>
+                  </ul>
+               </div>
             </div>
          </section>
       </main>
 
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <script src="https://unpkg.com/scrollreveal"></script>
       <script src="main.js"></script>
    </body>
 </html>
