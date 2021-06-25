@@ -7,8 +7,3 @@ Beautysalon  - O projeto em si consiste na criação de um site utilizando o con
 
 * Trilha Discover - rocketQ  
 O rocketQ é uma aplicação para o envio de perguntas anônimas. Ainda está em desenvolvimento.
-
-
-
-
-
